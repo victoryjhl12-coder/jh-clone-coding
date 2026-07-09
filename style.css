@@ -41,15 +41,15 @@
     gap: 30px;
     padding-right: 10px;
 }
+.logo-box {
+    border: 1px solid green;
+    width: 165px;
+}
 .inner-bar {
     border: 1px solid blue;
     display: flex;
     padding-left: 28px;
     padding-right: 10px;
-}
-.logo-box {
-    border: 1px solid green;
-    width: 165px;
 }
 .menu01-left-ul {
     border: 1px solid green;
