@@ -65,7 +65,8 @@
 .nav-left-ul {
     display: flex;
     justify-content: center;
-    padding-left: 70px; padding-right: 30px;
+    padding-left: 70px; 
+    /* padding-right: 30px; */
     gap: 30px;
 }
 .nav-left-ul a {
@@ -76,8 +77,8 @@
 .nav-right {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-left: 511px;
+    /* align-items: center; */
+    padding-left: 500px;
     padding-top: 20px; padding-bottom: 20px;
     gap: 30px;
 }
