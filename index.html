@@ -50,7 +50,15 @@
                 <!-- 왼쪽 사용자 메뉴 -->
                 <nav class="nav-left">
                     <ul class="nav-left-ul">
-                        <li class="m01-item m01-item01"><a href="#" target="_blank" title="ABOUT">ABOUT</a></li>
+                        <li class="m01-item m01-item01">
+                            <a href="#" target="_blank" title="ABOUT">ABOUT</a>
+                            <!-- 마우스 올리면 2차 메뉴 등장 -->
+                             <ul class="sub-menu-ul">
+                                <li class="sub-menu s01"><a href="#" target="_blank" title="STORY">STORY</a></li>
+                                <li class="sub-menu s01"><a href="#" target="_blank" title="CONTACT">CONTACT</a></li>
+                                <li class="sub-menu s01"><a href="#" target="_blank" title="STOCKIST">STOCKIST</a></li>
+                             </ul>
+                        </li>
                         <li class="m01-item m01-item02"><a href="#" target="_blank" title="SHOP">SHOP</a></li>
                         <li class="m01-item m01-item03"><a href="#" target="_blank" title="JOURNAL">JOURNAL</a></li>
                         <li class="m01-item m01-item04"><a href="#" target="_blank" title="COMMUNITY">COMMUNITY</a></li>
@@ -72,7 +80,24 @@
             </div>
         </div>
     </header>
-    <main>   </main>
+    <!-- 헤더 아래 제일 큰 두개의 이미지 -->
+    <main>
+        <!-- 이미지 컨테이너 -->
+        <div class="img-container">
+            <div class="img-con">
+                <div class="con con01">
+                    <a href="#" target="_blank" title="main-img01">
+                        <img src="./img/div.single-banner.svg" alt="main-img01">
+                    </a>
+                </div>
+                <div class="con con02">
+                    <a href="#" target="_blank" title="main-img02">
+                        <img src="./img/div.single-banner-right.svg" alt="main-img01">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer></footer>
 </body>
 </html>
