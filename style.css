@@ -52,6 +52,16 @@
     justify-content: center;
     padding-left: 28px;
     padding-right: 10px; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    z-index: 10;
+}
+.inner:hover {
+    background-color: #fff;
 }
 .flex {
     display: flex;
@@ -77,6 +87,11 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 22px;
+}
+/* 2차 메뉴 about -> 쓰다 말았음 */
+.menu02-container02{
+    background-color: #fff;
+    hieght: 688px;
 }
 .nav-right {
     display: flex;
