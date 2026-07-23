@@ -1,12 +1,16 @@
-/* header {
-    border: 1px solid red;
-} */
+ * {
+    outline: 1px solid red;
+}
+ .menu01{
+    position: relative;
+ }
  /* 스와이퍼 박스 */
 .swiper-container {
     background-color: #000;
     display: flex;
     height: 32px;
     width: 100%;
+    position: relative;
 }
 /* 스와이퍼 박스 내부 왼쪽 아이콘 */
 .left-icon {
@@ -53,12 +57,14 @@
     padding-left: 28px;
     padding-right: 10px; 
     position: absolute;
-    top: 0;
+    top: 32px;
     left: 0;
     width: 100%;
     background-color: transparent;
     transition: background-color 0.3s ease;
     z-index: 10;
+    /* 패딩때문에 상자가 튀어나옴 방지 코드 */
+    box-sizing: border-box;
 }
 .inner:hover {
     background-color: #fff;
@@ -68,7 +74,6 @@
     justify-content: center;
 }
 .logo-box {
-    border: 1px solid green;
     display: flex;
     align-items: center;
     height: 80px;
@@ -91,7 +96,7 @@
 /* 2차 메뉴 about -> 쓰다 말았음 */
 .menu02-container02{
     background-color: #fff;
-    hieght: 688px;
+    height: 688px;
 }
 .nav-right {
     display: flex;
@@ -131,6 +136,7 @@ main {
 .img-con {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 footer {
     border: 1px solid red;
