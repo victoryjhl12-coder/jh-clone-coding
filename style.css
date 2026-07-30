@@ -1,6 +1,4 @@
- * {
-    outline: 1px solid red;
-}
+  */
 /* 상단 스와이퍼 박스 */
  .menu01{
     position: relative;
@@ -89,7 +87,7 @@
     padding-left: 70px;
     gap: 30px;
 }
-.nav-left-ul a {
+.nav-left < a {
     font-size: 16px;
     font-weight: 500;
     line-height: 22px;
@@ -147,9 +145,9 @@
     font-weight: 500;
     line-height: 22px;
 }
-main {
+/* main {
     border: 1px solid red;
-}
+} */
 /* 메인 이미지 컨테이너 */
 .img-con {
     display: flex;
