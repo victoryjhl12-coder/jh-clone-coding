@@ -173,3 +173,32 @@
 footer {
     border: 1px solid red;
 }
+/* 하단 푸터 부분 */
+/* 하단 푸터 그룹 */
+.ft-group{
+    display: flex;
+    width: 100%;
+    padding: 20px 10px;
+    align-items: flex-start;
+    gap: 0.003px;
+}
+/* 카피라이트 묶음상자 */
+.util-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+/* ::after 적용하는 카피라이트 상자 */
+.copyright{
+    display: flex;
+    min-width: 173px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 20px;
+}
+.copy-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
