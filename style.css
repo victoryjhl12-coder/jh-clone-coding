@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px solid red; /* 두께, 선의 종류, 색상 */
-}
+} */
 /* 상단 스와이퍼 박스 */
  .menu01{
     position: relative;
@@ -20,6 +20,13 @@
     align-items: center;
 }
 /* 스와이퍼 글자 묶음 */
+ @keyframes autoSlide {
+    0%, 28% { transform: translateX(0%); }
+    33%, 61% { transform: translateX(-100%); }
+    66%, 94% { transform: translateX(-200%); }
+    100% { transform: translateX(0%); }
+}
+    
 .swiper-ul {
     display: flex;
     flex-grow: 1;
@@ -30,7 +37,11 @@
     font-weight: 400;
     line-height: 20px;
     overflow: hidden;
+
+    /* 추가: 9초 동안 애니메이션 무한 반복 */
+    animation: autoSlide 9s infinite;
 }
+
 .s-item {
     width: 100%;
     flex-shrink: 0;
