@@ -1,6 +1,6 @@
 /* * {
     border: 1px solid red; /* 두께, 선의 종류, 색상 */
-} */
+ */
 /* 상단 스와이퍼 박스 */
  .menu01{
     position: relative;
@@ -115,7 +115,6 @@
     position: absolute;
     top: 100%;
     left: 0;
-    width: 100%; 
     display: none;
 }
 .m01-item01:hover .menu02 {
