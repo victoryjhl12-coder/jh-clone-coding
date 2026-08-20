@@ -1,9 +1,13 @@
 /* * {
-    border: 1px solid red; /* 두께, 선의 종류, 색상 */
- */
+    border: 1px solid red;
+} */
 /* 상단 스와이퍼 박스 */
- .menu01{
-    position: relative;
+ .menuswiper-wrapper01{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000 ;
  }
 .swiper-container {
     background-color: #000;
@@ -44,8 +48,8 @@
 
 .s-item {
     width: 100%;
-    flex-shrink: 0;
-    justify-content: center;
+    flex-shrink: 0; 
+    text-align: center;
     color: rgb(255, 255, 255);
     font-size: 14.3px;
     font-weight: 400;
@@ -83,7 +87,8 @@
 }
 .flex {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 .logo-box {
     display: flex;
@@ -126,9 +131,8 @@
 }
 .nav-right {
     display: flex;
-    justify-content: center;
-    padding-left: 500px;
-    padding-top: 20px; padding-bottom: 20px;
+    align-items: center;
+    margin-left: auto;
     gap: 30px;
 }
 /*검색바  */
@@ -197,7 +201,7 @@
     line-height: 77px;
     letter-spacing: 0.2px;
 }
-.new-arrival {
+.new-arrivals {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -215,9 +219,31 @@
     width: 467px;
 }
 .swiper-wrapper {
+    border: 1px solid red;
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
+}
+.giftset-area {
+    border: 1px solid red;
+    display: flex;
+    padding-top: 150px;
+    align-items: center;
+    gap: 40px;
+}
+.gift-group {
+    max-width: 100%;
+}
+.gift-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.name {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 77px;
 }
 footer {
     border: 1px solid red;
